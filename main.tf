@@ -31,5 +31,5 @@ resource "aws_instance" "ubuntu" {
   }
 }
 resource "null_resource" "my_null_resource" {
-  count = 4
+  count = 1
 }
