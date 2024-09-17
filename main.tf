@@ -30,3 +30,6 @@ resource "aws_instance" "ubuntu" {
     env = "dev"
   }
 }
+resource "null_resource" "my_null_resource" {
+  count = 1
+}
