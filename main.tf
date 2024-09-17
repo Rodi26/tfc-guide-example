@@ -27,6 +27,6 @@ resource "aws_instance" "ubuntu" {
 
   tags = {
     Name = var.instance_name
-    env = pre-prod
+    env = "pre-prod"
   }
 }
